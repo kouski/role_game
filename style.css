@@ -151,13 +151,27 @@ main {
     }
 }
 
-.dice, .placeholder-dice{
+.dice {
+    display: inline-block;
+    margin: 0 0.3em;
     height:5.5vh;
     width:5.5vh;
     background: #fff;   
     border-radius: 5px;
     border:1px solid #666;
-    color:#000721;
+    color:rgb(32, 1, 1);
+    text-align: center;
+    line-height: 6vh;
+}
+.placeholder-dice {
+    display: inline-block;
+    margin: 0 0.3em;
+    height:5.5vh;
+    width:5.5vh;
+    background: transparent;   
+    border-radius: 5px;
+    border:1px solid #666;
+    color:rgb(32, 1, 1);
     text-align: center;
     line-height: 6vh;
 }
@@ -193,6 +207,13 @@ button {
     box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.4);
 }
 
+button:hover{
+    border: 4px solid #fcc02a;
+    background-color: #963404;
+    color: #fcc02a;
+    font-weight: bold;
+}
+
 @media(min-width:550px){
     button {
         margin-top: 0;
@@ -208,4 +229,8 @@ button:focus { outline: 0 }
 
 .end-emoji{
     font-size: 80px;
+}
+
+#monster-lost{
+    color: white;
 }
