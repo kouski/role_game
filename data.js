@@ -11,7 +11,7 @@
       name: "Orc",
       avatar:
         "imagenes/depositphotos_542324844-stock-photo-portrait-savage-orc-brute-wearing.jpg",
-      health: 10,
+      health: 100,
       diceCount: 1,
       currentDiceScore: []
     },
