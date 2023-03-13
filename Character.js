@@ -1,8 +1,5 @@
-import { getDicePlaceholderHtml, getDiceRollArray } from "./utils.js";
+import { getDicePlaceholderHtml, getDiceRollArray,getPercentage } from "./utils.js";
 
-const getPercentage = (remaining, max) => {
-  return ((100 * remaining) / max).toFixed(2);
-};
 
 export function Character(data) {
   Object.assign(this, data);
